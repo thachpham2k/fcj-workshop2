@@ -56,7 +56,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://thachpham2k.github.io/fcj-workshop1/"
+            --baseURL "https://thachpham2k.github.io/fcj-workshop2/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
