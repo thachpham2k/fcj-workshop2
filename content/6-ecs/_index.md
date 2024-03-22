@@ -2,9 +2,9 @@
 title: "Create Elastic Container Service (ECS)"
 menuTitle: "Elastic Container Service"
 date: "`r Sys.Date()`"
-weight: 5
+weight: 6
 chapter: false
-pre: "<b> 5. </b>"
+pre: "<b> 6. </b>"
 ---
 
 ## Overview
