@@ -15,7 +15,7 @@ Mặc dù không phổ biến trong các bài lab, việc sử dụng AWS CLI ma
 
 Kiến trúc:
 
-![Kiến trúc](/fcj-workshop2/images/diagram.png)
+![Kiến trúc](/images/diagram.png)
 
 ## Nội dung
 

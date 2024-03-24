@@ -70,7 +70,7 @@ Các biến này được chia thành 5 loại:
 
 Chạy
 
-![Shell variable config](/fcj-workshop2/images/2-prerequiste/2.2-terminal-config/2.2.1-config.png)
+![Shell variable config](/images/2-prerequiste/2.2-terminal-config/2.2.1-config.png)
 
 ## Mở rộng
 

@@ -127,24 +127,24 @@ In this section, we will sequentially create Security Groups for EC2 Instances, 
 
 1. Create Security Group for Instance
 
-   ![Create Instance Security Group](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.1.png)
+   ![Create Instance Security Group](/images/2-prerequiste/2.7-security-group/2.7.1.png)
 
    Check the created Security group using the AWS Console
 
-   ![Instance Security Group created success](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.2.png)
+   ![Instance Security Group created success](/images/2-prerequiste/2.7-security-group/2.7.2.png)
 
 2. Create Security Group for RDS
 
-   ![Create RDS Security Group](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.3.png)
+   ![Create RDS Security Group](/images/2-prerequiste/2.7-security-group/2.7.3.png)
 
    Check the created Security Group using AWS Console
 
-   ![RDS Security Group created success](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.4.png)
+   ![RDS Security Group created success](/images/2-prerequiste/2.7-security-group/2.7.4.png)
 
 3. Create Security Group for ALB
 
-   ![Create ALB Security Group](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.5.png)
+   ![Create ALB Security Group](/images/2-prerequiste/2.7-security-group/2.7.5.png)
 
    Check the result on the AWS Console
 
-   ![ALB Security Group created success](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.6.png)
+   ![ALB Security Group created success](/images/2-prerequiste/2.7-security-group/2.7.6.png)

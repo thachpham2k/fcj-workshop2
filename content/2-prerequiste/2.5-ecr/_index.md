@@ -94,43 +94,43 @@ In this section, we have created an ECR repository, authenticated Docker with EC
 
 1. Create an ECR Repository
 
-    ![Create ECR via CLI](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.1-create-ecr.png)
+    ![Create ECR via CLI](/images/2-prerequiste/2.5-ecr/2.5.1-create-ecr.png)
 
     The ECR repository has been successfully created
 
-    ![Create ECR in the console](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.2-created-ecr.png)
+    ![Create ECR in the console](/images/2-prerequiste/2.5-ecr/2.5.2-created-ecr.png)
 
     | 👉 Click on **View push commands** to learn how to push an image to the ECR repository.
 
-    ![View Push Command](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.3-view-push-command.png)
+    ![View Push Command](/images/2-prerequiste/2.5-ecr/2.5.3-view-push-command.png)
 
 2. Authentication with ECR
 
-    ![Docker authenticate to ECR](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.4-authen.png)
+    ![Docker authenticate to ECR](/images/2-prerequiste/2.5-ecr/2.5.4-authen.png)
 
 3. Source code
 
 4. Build a Docker image from the source code
 
-    ![Docker Build](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.5-docker-build.png)
+    ![Docker Build](/images/2-prerequiste/2.5-ecr/2.5.5-docker-build.png)
 
-    ![Docker image filter](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.6-docker-image.png)
+    ![Docker image filter](/images/2-prerequiste/2.5-ecr/2.5.6-docker-image.png)
 
 5. Tag the image
 
-    ![Docker Tag](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.7-docker-tag.png)
+    ![Docker Tag](/images/2-prerequiste/2.5-ecr/2.5.7-docker-tag.png)
 
 6. Use the following command to push the image to ECR
 
-    ![Docker push](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.8-docker-push.png)
+    ![Docker push](/images/2-prerequiste/2.5-ecr/2.5.8-docker-push.png)
 
     The Docker Image has been successfully pushed to the ECR repository
 
-    ![ECR Image](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.9-ecr-image.png)
+    ![ECR Image](/images/2-prerequiste/2.5-ecr/2.5.9-ecr-image.png)
 
 7. Pull an image from ECR
 
-    ![Docker pull](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.10-docker-pull.png)
+    ![Docker pull](/images/2-prerequiste/2.5-ecr/2.5.10-docker-pull.png)
 
 ## References
 

@@ -35,13 +35,13 @@ aws ecs update-service --cluster $ecs_cluster_name \
 ```
 
 Execution:
-![Create ECS Service](/fcj-workshop2/images/6-ecs/6.4-service/6.4.1.png)
+![Create ECS Service](/images/6-ecs/6.4-service/6.4.1.png)
 
-![Update ECS Service](/fcj-workshop2/images/6-ecs/6.4-service/6.4.2.png)
+![Update ECS Service](/images/6-ecs/6.4-service/6.4.2.png)
 
 Verify the ECS Service created using the AWS Console:
 
-![Create ECS Service](/fcj-workshop2/images/6-ecs/6.4-service/6.4.3.png)
+![Create ECS Service](/images/6-ecs/6.4-service/6.4.3.png)
 
 ## Checking Lab Results
 
@@ -51,7 +51,7 @@ Verify the ECS Service created using the AWS Console:
     aws elbv2 describe-target-health --target-group-arn $alb_tgr_arn
     ```
 
-    ![Target Group check Healthy](/fcj-workshop2/images/6-ecs/6.4-service/6.4.6.png)
+    ![Target Group check Healthy](/images/6-ecs/6.4-service/6.4.6.png)
 
 2. Access the ALB public DNS
 
@@ -62,8 +62,8 @@ Verify the ECS Service created using the AWS Console:
         --output text
     ```
     
-    ![Retrieve ALB DNS](/fcj-workshop2/images/6-ecs/6.4-service/6.4.5.png)
+    ![Retrieve ALB DNS](/images/6-ecs/6.4-service/6.4.5.png)
 
 3. Check the application using the `api` endpoint
 
-    ![Check Application](/fcj-workshop2/images/6-ecs/6.4-service/6.4.4.png)
+    ![Check Application](/images/6-ecs/6.4-service/6.4.4.png)

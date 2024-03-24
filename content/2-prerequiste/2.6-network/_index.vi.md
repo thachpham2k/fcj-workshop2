@@ -220,53 +220,53 @@ Trong phần này chúng ta sẽ tạo 1 VPC với 6 subnet (3 private và 3 pub
 
 1. Tạo VPC
 
-    ![Create VPC](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.1.png)
+    ![Create VPC](/images/2-prerequiste/2.6-network/2.6.1.png)
 
     Kiểm tra VPC vừa tạo bằng AWS console
 
-    ![Created VPC](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.2.png)
+    ![Created VPC](/images/2-prerequiste/2.6-network/2.6.2.png)
 
 2.  Tạo Subnet
 
     1. Tạo Public Subnet
         
-        ![Create Public Subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.3.png)
+        ![Create Public Subnet](/images/2-prerequiste/2.6-network/2.6.3.png)
 
         Kiểm tra các public subnet vừa tạo bằng AWS Console
 
-        ![Created Public Subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.4.png)
+        ![Created Public Subnet](/images/2-prerequiste/2.6-network/2.6.4.png)
 
     2. Tạo Private Subnet
 
-        ![Create private subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.5.png)
+        ![Create private subnet](/images/2-prerequiste/2.6-network/2.6.5.png)
 
         Kiểm tra private subnet vừa được tạo bằng AWS Console
 
-        ![Created private subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.6.png)
+        ![Created private subnet](/images/2-prerequiste/2.6-network/2.6.6.png)
 
 3. Tạo Internet Gateway
 
 
-    ![Create Internet Gateway](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.7.png)
+    ![Create Internet Gateway](/images/2-prerequiste/2.6-network/2.6.7.png)
 
     Kiểm tra internet gateway vừa được tạo bằng AWS Console
 
-    ![Created Internet Gateway](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.8.png)
+    ![Created Internet Gateway](/images/2-prerequiste/2.6-network/2.6.8.png)
 
 4. Create Route Table and Routing
 
     1. Create Public Routable
 
-        ![Create Route Table public](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.9.png)
+        ![Create Route Table public](/images/2-prerequiste/2.6-network/2.6.9.png)
 
         Kiểm tra Route Table public vừa tạo bằng AWS Console
 
-        ![Created Route Table Public](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.10.png)
+        ![Created Route Table Public](/images/2-prerequiste/2.6-network/2.6.10.png)
 
     2. Private Route Table
 
-        ![Create Route Table Private](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.11.png)
+        ![Create Route Table Private](/images/2-prerequiste/2.6-network/2.6.11.png)
         
         Kiểm tra Route Table private vừa tạo bằng AWS Console
         
-        ![Created Route Table Private](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.12.png)
+        ![Created Route Table Private](/images/2-prerequiste/2.6-network/2.6.12.png)

@@ -132,41 +132,41 @@ The following is an overview of the capacity options:
 
 1. Retrieve ECS-optimized AMI
     
-    ![Retrieve ECS-optimized AMI](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.1.png)
+    ![Retrieve ECS-optimized AMI](/images/6-ecs/6.2-capacity/6.2.1.png)
 
 2. Create Launch Template
 
     Create content for the Launch Template configuration file
     
-    ![Create Launch Template file](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.2.png)
+    ![Create Launch Template file](/images/6-ecs/6.2-capacity/6.2.2.png)
 
     Content of the configuration file and use it to create the Launch Template
     
-    ![Create Launch Template](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.3.png)
+    ![Create Launch Template](/images/6-ecs/6.2-capacity/6.2.3.png)
 
     Successful creation of the Launch Template:
 
-    ![Created Launch Template](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.4.png)
+    ![Created Launch Template](/images/6-ecs/6.2-capacity/6.2.4.png)
   
 3. Create Auto Scaling Group using the created template
 
-    ![Create Auto Scaling Group](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.5.png)
+    ![Create Auto Scaling Group](/images/6-ecs/6.2-capacity/6.2.5.png)
 
     Check the result on the AWS Console
 
-    ![Created Auto Scaling Group](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.6.png)
+    ![Created Auto Scaling Group](/images/6-ecs/6.2-capacity/6.2.6.png)
     
 4. List Container Instances
 
-    ![List Container instance of ECS Cluster](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.7.png)
+    ![List Container instance of ECS Cluster](/images/6-ecs/6.2-capacity/6.2.7.png)
 
 5. Create Capacity Provider and use it for ECS Cluster
 
-    ![Create Capacity Provider](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.8.png)
+    ![Create Capacity Provider](/images/6-ecs/6.2-capacity/6.2.8.png)
 
     Check the result on the AWS Console
 
-    ![Created Capacity Provider](/fcj-workshop2/images/6-ecs/6.2-capacity/6.2.9.png)
+    ![Created Capacity Provider](/images/6-ecs/6.2-capacity/6.2.9.png)
 
 ## References
 

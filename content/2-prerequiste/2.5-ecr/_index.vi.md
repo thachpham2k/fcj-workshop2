@@ -94,43 +94,43 @@ Trong phần này, chúng ta đã tạo một ECR repository, đăng nhập vào
 
 1. Tạo một ECR Repository
 
-    ![Create ECR via cli](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.1-create-ecr.png)
+    ![Create ECR via cli](/images/2-prerequiste/2.5-ecr/2.5.1-create-ecr.png)
 
     ECR repository đã được tạo thành công
 
-    ![Create ECR in console](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.2-created-ecr.png)
+    ![Create ECR in console](/images/2-prerequiste/2.5-ecr/2.5.2-created-ecr.png)
 
     | 👉 Chọn vào **View push commands**, bạn sẽ được hướng dẫn làm sao để push một image lên ECR repository.
 
-    ![View Push Command](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.3-view-push-command.png)
+    ![View Push Command](/images/2-prerequiste/2.5-ecr/2.5.3-view-push-command.png)
 
 2. Xác thực đối với ECR
 
-    ![Docker authenticate to ECR](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.4-authen.png)
+    ![Docker authenticate to ECR](/images/2-prerequiste/2.5-ecr/2.5.4-authen.png)
 
 3. Source code
 
 4. Tạo Docker image từ source code
 
-    ![Docker Build](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.5-docker-build.png)
+    ![Docker Build](/images/2-prerequiste/2.5-ecr/2.5.5-docker-build.png)
 
-    ![Docker image filter](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.6-docker-image.png)
+    ![Docker image filter](/images/2-prerequiste/2.5-ecr/2.5.6-docker-image.png)
 
 5. Đặt tag cho image
 
-    ![Docker Tag](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.7-docker-tag.png)
+    ![Docker Tag](/images/2-prerequiste/2.5-ecr/2.5.7-docker-tag.png)
 
 6. Sử dụng lệnh sau để push image lên ECR
 
-    ![Docker push](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.8-docker-push.png)
+    ![Docker push](/images/2-prerequiste/2.5-ecr/2.5.8-docker-push.png)
 
     Docker Image đã được đẩy lên ECR repository thành công
 
-    ![ECR Image](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.9-ecr-image.png)
+    ![ECR Image](/images/2-prerequiste/2.5-ecr/2.5.9-ecr-image.png)
 
 7. Pull image từ ECR
 
-    ![Docker pull](/fcj-workshop2/images/2-prerequiste/2.5-ecr/2.5.10-docker-pull.png)
+    ![Docker pull](/images/2-prerequiste/2.5-ecr/2.5.10-docker-pull.png)
 
 ## Tham khảo
 

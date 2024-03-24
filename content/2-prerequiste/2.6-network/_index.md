@@ -218,54 +218,54 @@ In this section, we'll create a VPC with 6 subnets (3 private and 3 public distr
 
 1. Create VPC
 
-    ![Create VPC](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.1.png)
+    ![Create VPC](/images/2-prerequiste/2.6-network/2.6.1.png)
 
     Check the created VPC using the AWS console
 
-    ![Created VPC](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.2.png)
+    ![Created VPC](/images/2-prerequiste/2.6-network/2.6.2.png)
 
 2.  Create Subnets
 
     1. Create Public Subnet
         
-        ![Create Public Subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.3.png)
+        ![Create Public Subnet](/images/2-prerequiste/2.6-network/2.6.3.png)
 
         Check the created public subnets using the AWS Console
 
-        ![Created Public Subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.4.png)
+        ![Created Public Subnet](/images/2-prerequiste/2.6-network/2.6.4.png)
 
     2. Create Private Subnet
 
-        ![Create private subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.5.png)
+        ![Create private subnet](/images/2-prerequiste/2.6-network/2.6.5.png)
 
         Check the created private subnet using the AWS Console
 
-        ![Created private subnet](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.6.png)
+        ![Created private subnet](/images/2-prerequiste/2.6-network/2.6.6.png)
 
 3. Create Internet Gateway
 
 
-    ![Create Internet Gateway](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.7.png)
+    ![Create Internet Gateway](/images/2-prerequiste/2.6-network/2.6.7.png)
 
     Check the created Internet Gateway using the AWS Console
 
-    ![Created Internet Gateway](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.8.png)
+    ![Created Internet Gateway](/images/2-prerequiste/2.6-network/2.6.8.png)
 
 4. Create Route Table and Routing
 
     1. Create Public Routable
 
-        ![Create Route Table public](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.9.png)
+        ![Create Route Table public](/images/2-prerequiste/2.6-network/2.6.9.png)
 
         Check the created public Route Table using the AWS Console
 
-        ![Created Route Table Public](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.10.png)
+        ![Created Route Table Public](/images/2-prerequiste/2.6-network/2.6.10.png)
 
     2. Private Route Table
 
-        ![Create Route Table Private](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.11.png)
+        ![Create Route Table Private](/images/2-prerequiste/2.6-network/2.6.11.png)
         
         Check the created private Route Table using the AWS Console
         
-        ![Created Route Table Private](/fcj-workshop2/images/2-prerequiste/2.6-network/2.6.12.png)
+        ![Created Route Table Private](/images/2-prerequiste/2.6-network/2.6.12.png)
    

@@ -48,6 +48,9 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Change image links
+        run: |
+          find content -type f \( -name "_index.vi.md" -o -name "_index.md" \) -exec sed -i "s/](\/images\//](\/fcj-workshop2\/images\//g" {} + 
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules

@@ -15,7 +15,7 @@ While not common in lab exercises, using the AWS CLI provides an interesting and
 
 Architecture:
 
-![Architecture](/fcj-workshop2/images/diagram.png)
+![Architecture](/images/diagram.png)
 
 ## Content
 

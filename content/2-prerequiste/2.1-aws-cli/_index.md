@@ -53,7 +53,7 @@ For more information on installing AWS CLI on other platforms or updating AWS CL
 
     You need to enter 4 values: `Access Key ID`, `Secret Access Key`, `Region`, and `Default output format`.
 
-    ![AWS CLI config](/fcj-workshop2/images/2-prerequiste/2.1-aws-cli/2.1.1-cli-config.png)
+    ![AWS CLI config](/images/2-prerequiste/2.1-aws-cli/2.1.1-cli-config.png)
 
     {{% notice note %}}
 If you do not know or do not have AWS **Access Key** ID and **Secret Access Key**, please refer to the guide [Managing access keys for IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)   
@@ -90,7 +90,7 @@ After using the `aws configure` command, a folder named `.aws` will be created i
 
     | 👉 In the image below, although the `aws configure` command has configured the region as `ap-southeast-1`, AWS CLI still accepts the value `us-east-2` from the AWS_REGION variable.
 
-    ![AWS Configure conflict](/fcj-workshop2/images/2-prerequiste/2.1-aws-cli/2.1.2-bug.png)
+    ![AWS Configure conflict](/images/2-prerequiste/2.1-aws-cli/2.1.2-bug.png)
 
 ## References
 

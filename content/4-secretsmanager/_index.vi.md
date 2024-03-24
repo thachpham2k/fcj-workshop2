@@ -36,11 +36,11 @@ aws secretsmanager create-secret \
 
 Tạo Secrets Manager
 
-![Create Secrets Manager secret](/fcj-workshop2/images/4-secretsmanager/4.1.png)
+![Create Secrets Manager secret](/images/4-secretsmanager/4.1.png)
 
 Kiểm tra kết quả trên AWS Console
 
-![Create Success](/fcj-workshop2/images/4-secretsmanager/4.2.png)
+![Create Success](/images/4-secretsmanager/4.2.png)
 
-![Create Success](/fcj-workshop2/images/4-secretsmanager/4.3.png)
+![Create Success](/images/4-secretsmanager/4.3.png)
 

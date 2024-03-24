@@ -128,24 +128,24 @@ Một bài viết khá hay của AWS Study Group liên quan đến Security Grou
 
 1. Tạo Security Group cho Instance
 
-   ![Create Instance Security Group](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.1.png)
+   ![Create Instance Security Group](/images/2-prerequiste/2.7-security-group/2.7.1.png)
 
    Kiểm tra Security group vừa tạo bằng AWS Console
 
-   ![Instance Security Group created success](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.2.png)
+   ![Instance Security Group created success](/images/2-prerequiste/2.7-security-group/2.7.2.png)
 
 2. Tạo Security Group cho RDS
 
-   ![Create RDS Security Group](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.3.png)
+   ![Create RDS Security Group](/images/2-prerequiste/2.7-security-group/2.7.3.png)
 
    Kiểm tra Security Group vừa tạo bằngAWS Console
 
-   ![RDS Security Group created success](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.4.png)
+   ![RDS Security Group created success](/images/2-prerequiste/2.7-security-group/2.7.4.png)
 
 3. Tạo Security Group for ALB
 
-   ![Create ALB Security Group](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.5.png)
+   ![Create ALB Security Group](/images/2-prerequiste/2.7-security-group/2.7.5.png)
 
    Kiểm tra kết quả trên AWS Console
 
-   ![ALB Security Group created success](/fcj-workshop2/images/2-prerequiste/2.7-security-group/2.7.6.png)
+   ![ALB Security Group created success](/images/2-prerequiste/2.7-security-group/2.7.6.png)

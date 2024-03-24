@@ -45,8 +45,8 @@ aws ec2 create-key-pair \
 
 1. Tạo Keypair
 
-    ![Create Keypair](/fcj-workshop2/images/2-prerequiste/2.4-keypair/2.4.1-create.png)
+    ![Create Keypair](/images/2-prerequiste/2.4-keypair/2.4.1-create.png)
 
 2. Kiểm tra keypair trên AWS Console
 
-    ![keypair created](/fcj-workshop2/images/2-prerequiste/2.4-keypair/2.4.2-keypair.png)
+    ![keypair created](/images/2-prerequiste/2.4-keypair/2.4.2-keypair.png)

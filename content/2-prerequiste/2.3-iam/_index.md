@@ -80,27 +80,27 @@ If you use the AWS CLI, API, or an AWS SDK to create a role, you create the role
 
 1. Create an IAM Role
 
-    ![Created IAM Role](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.2-create-role.png)
+    ![Created IAM Role](/images/2-prerequiste/2.3-iam/2.3.2-create-role.png)
 
 2. Attach policies to the IAM Role
 
-    ![Attach policy to IAM Role](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.3-attack-policy.png)
+    ![Attach policy to IAM Role](/images/2-prerequiste/2.3-iam/2.3.3-attack-policy.png)
 
 3. Create an IAM instance profile
 
-   ![Create Instance Profile via CLI](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.4-create-profile.png)
+   ![Create Instance Profile via CLI](/images/2-prerequiste/2.3-iam/2.3.4-create-profile.png)
 
 4. Add the Role to the Instance profile
 
-    ![Add Role to Instance Profile](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.5-add-role-2-profile.png)
+    ![Add Role to Instance Profile](/images/2-prerequiste/2.3-iam/2.3.5-add-role-2-profile.png)
     
     Access the IAM Role via the AWS Console, and for roles assigned to the instance profile, the **Instance profile ARN** will be displayed in the upper-right corner under the Summary section
     
-    ![Created Instance Profile](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.7-iam-role.png)
+    ![Created Instance Profile](/images/2-prerequiste/2.3-iam/2.3.7-iam-role.png)
 
 5. Retrieve the Instance Profile information used for the instance (EC2)
 
-    ![Get Instance Profile via CLI](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.6-profile-arn.png)
+    ![Get Instance Profile via CLI](/images/2-prerequiste/2.3-iam/2.3.6-profile-arn.png)
 
 ## References
 

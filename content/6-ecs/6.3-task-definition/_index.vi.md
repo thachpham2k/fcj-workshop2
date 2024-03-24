@@ -159,37 +159,37 @@ Còn lấy toàn bộ giá trị của secret, sử dụng `arn:aws:secretsmanag
    
    1. Tạo IAM Role
 
-        ![Create Task Role](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.1.png)
+        ![Create Task Role](/images/6-ecs/6.3-task-definition/6.3.1.png)
         
         Kiểm tra IAM Role vừa tạo bằng AWS Console
 
-        ![Created IAM Role](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.4.png)
+        ![Created IAM Role](/images/6-ecs/6.3-task-definition/6.3.4.png)
 
    2. Gắn các policy vào IAM Role này
 
-        ![Attach policy for IAM Role](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.3.png)
+        ![Attach policy for IAM Role](/images/6-ecs/6.3-task-definition/6.3.3.png)
 
         Kiểm tra policy của IAM Role bằng AWS Console
 
-        ![Check Policy in IAM Role](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.5.png)
+        ![Check Policy in IAM Role](/images/6-ecs/6.3-task-definition/6.3.5.png)
 
 2. Tạo Task Definition
 
     1. Tạo tệp định nghĩa Task definition
 
-        ![Create Task Definition config file](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.6.png)
+        ![Create Task Definition config file](/images/6-ecs/6.3-task-definition/6.3.6.png)
 
     1. Sử dụng file này để tạo Task Definition
 
-        ![Create Task Definition](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.7.png)
+        ![Create Task Definition](/images/6-ecs/6.3-task-definition/6.3.7.png)
 
         Kiểm tra việc tạo ECS task definition bằng AWS Cli
 
-        ![Get Task Definition ARN](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.8.png)
+        ![Get Task Definition ARN](/images/6-ecs/6.3-task-definition/6.3.8.png)
 
         Kiểm tra việc tạo ECS task definition bằng AWS Console
 
-        ![Created Task Definition](/fcj-workshop2/images/6-ecs/6.3-task-definition/6.3.9.png)
+        ![Created Task Definition](/images/6-ecs/6.3-task-definition/6.3.9.png)
 
 ## Tham khảo
 

@@ -44,8 +44,8 @@ aws ecs list-clusters
 
 ## Execution
 
-![Create ECS Cluster](/fcj-workshop2/images/6-ecs/6.1-cluster/6.1.1.png)
+![Create ECS Cluster](/images/6-ecs/6.1-cluster/6.1.1.png)
 
 Check the result on the AWS Console
 
-![Created ECS Cluster](/fcj-workshop2/images/6-ecs/6.1-cluster/6.1.2.png)
+![Created ECS Cluster](/images/6-ecs/6.1-cluster/6.1.2.png)

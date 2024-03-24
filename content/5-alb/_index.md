@@ -15,7 +15,7 @@ The Application Load Balancer operates at the application layer (Layer 7) of the
 After receiving a request, the ALB evaluates listener rules in priority order to determine which rule to apply, then selects a target from a Target Group to continue processing.
 {{% /notice %}}
 
-![ALB Architecture](/fcj-workshop2/images/5-alb/introduce.png)
+![ALB Architecture](/images/5-alb/introduce.png)
 
 ## Procedure
 
@@ -81,24 +81,24 @@ After receiving a request, the ALB evaluates listener rules in priority order to
 
 2. Create ALB
 
-    ![Create ALB](/fcj-workshop2/images/5-alb/5.1.png)
+    ![Create ALB](/images/5-alb/5.1.png)
 
     Check the result on the AWS Console
 
-    ![Created ALB](/fcj-workshop2/images/5-alb/5.2.png)
+    ![Created ALB](/images/5-alb/5.2.png)
 
 3. Create Target Group
 
-    ![Create Target Group](/fcj-workshop2/images/5-alb/5.3.png)
+    ![Create Target Group](/images/5-alb/5.3.png)
 
     Check the result on the AWS Console
 
-    ![Created Target Group](/fcj-workshop2/images/5-alb/5.4.png)
+    ![Created Target Group](/images/5-alb/5.4.png)
 
 4. Create Listener
 
-   ![Create Listener](/fcj-workshop2/images/5-alb/5.5.png)
+   ![Create Listener](/images/5-alb/5.5.png)
 
     Check the result on the AWS Console
 
-    ![Created Listener](/fcj-workshop2/images/5-alb/5.6.png)
+    ![Created Listener](/images/5-alb/5.6.png)

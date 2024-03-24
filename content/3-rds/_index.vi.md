@@ -92,22 +92,22 @@ Trong phần này, chúng ta sẽ thiết lập Dịch vụ Cơ sở dữ liệu
 
 1. Tạo RDS Subnet Group
 
-    ![Create RDS Subnet Group](/fcj-workshop2/images/3-rds/3.1.png)
+    ![Create RDS Subnet Group](/images/3-rds/3.1.png)
 
     Kiểm tra trên AWS console
 
-    ![RDS Subnet Group Created success](/fcj-workshop2/images/3-rds/3.2.png)
+    ![RDS Subnet Group Created success](/images/3-rds/3.2.png)
 
 2. Deploy RDS
 
-    ![Deploy RDS Instance](/fcj-workshop2/images/3-rds/3.3.png)
+    ![Deploy RDS Instance](/images/3-rds/3.3.png)
 
     Truy vấn địa chỉ của RDS Instance
 
-    ![Get RDS Instance Address](/fcj-workshop2/images/3-rds/3.4.png)
+    ![Get RDS Instance Address](/images/3-rds/3.4.png)
 
     Kiểm tra kết quả trên AWS Console
 
-    ![RDS Instance deployed successfully](/fcj-workshop2/images/3-rds/3.5.png)
+    ![RDS Instance deployed successfully](/images/3-rds/3.5.png)
 
-    ![RDS Instance deployed successfully](/fcj-workshop2/images/3-rds/3.6.png)
+    ![RDS Instance deployed successfully](/images/3-rds/3.6.png)

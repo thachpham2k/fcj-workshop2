@@ -15,7 +15,7 @@ Application Load Balancer hoạt động ở tầng ứng dụng, là tầng th�
 Sau khi ALB nhận yêu cầu, nó đánh giá các quy tắc trình nghe (listener rule) theo thứ tự ưu tiên để xác định quy tắc nào được áp dụng, sau đó chọn một mục tiêu từ Target Group để tiếp tục thực hiện.
 {{% /notice %}}
 
-![ALB Architecture](/fcj-workshop2/images/5-alb/introduce.png)
+![ALB Architecture](/images/5-alb/introduce.png)
 
 ## Quy trình
 
@@ -81,24 +81,24 @@ Sau khi ALB nhận yêu cầu, nó đánh giá các quy tắc trình nghe (liste
 
 2. Tạo ALB
 
-    ![Create ALB](/fcj-workshop2/images/5-alb/5.1.png)
+    ![Create ALB](/images/5-alb/5.1.png)
 
     Kiểm tra kết quả bằng AWS Console
 
-    ![Created ALB](/fcj-workshop2/images/5-alb/5.2.png)
+    ![Created ALB](/images/5-alb/5.2.png)
 
 3. Tạo Target Group
 
-    ![Create Target Group](/fcj-workshop2/images/5-alb/5.3.png)
+    ![Create Target Group](/images/5-alb/5.3.png)
 
     Kiểm tra kết quả bằng AWS Console
 
-    ![Created Target Group](/fcj-workshop2/images/5-alb/5.4.png)
+    ![Created Target Group](/images/5-alb/5.4.png)
 
 4. Tạo Listener
 
-   ![Create Listener](/fcj-workshop2/images/5-alb/5.5.png)
+   ![Create Listener](/images/5-alb/5.5.png)
 
     Kiểm tra kết quả bằng AWS Console
 
-    ![Created Listener](/fcj-workshop2/images/5-alb/5.6.png)
+    ![Created Listener](/images/5-alb/5.6.png)

@@ -92,22 +92,22 @@ In this section, we will set up the Relational Database Service (RDS) on AWS.
 
 1. Create RDS Subnet Group
 
-    ![Create RDS Subnet Group](/fcj-workshop2/images/3-rds/3.1.png)
+    ![Create RDS Subnet Group](/images/3-rds/3.1.png)
 
     Check on the AWS console
 
-    ![RDS Subnet Group Created success](/fcj-workshop2/images/3-rds/3.2.png)
+    ![RDS Subnet Group Created success](/images/3-rds/3.2.png)
 
 2. Deploy RDS
 
-    ![Deploy RDS Instance](/fcj-workshop2/images/3-rds/3.3.png)
+    ![Deploy RDS Instance](/images/3-rds/3.3.png)
 
     Query the address of the RDS Instance
 
-    ![Get RDS Instance Address](/fcj-workshop2/images/3-rds/3.4.png)
+    ![Get RDS Instance Address](/images/3-rds/3.4.png)
 
     Check the result on the AWS Console
 
-    ![RDS Instance deployed successfully](/fcj-workshop2/images/3-rds/3.5.png)
+    ![RDS Instance deployed successfully](/images/3-rds/3.5.png)
 
-    ![RDS Instance deployed successfully](/fcj-workshop2/images/3-rds/3.6.png)
+    ![RDS Instance deployed successfully](/images/3-rds/3.6.png)

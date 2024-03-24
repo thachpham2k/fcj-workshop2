@@ -53,7 +53,7 @@ Hướng dẫn này chỉ áp dụng cho hệ điều hành Linux.
 
     Bạn cần nhập 4 giá trị là `Access Key ID`, `Secret Access Key`, `Region` và `Default output format`.
 
-    ![AWS CLI config](/fcj-workshop2/images/2-prerequiste/2.1-aws-cli/2.1.1-cli-config.png)
+    ![AWS CLI config](/images/2-prerequiste/2.1-aws-cli/2.1.1-cli-config.png)
 
     {{% notice note %}}
 Nếu bạn chưa biết hoặc chưa có **Access Key** ID và **Secret Access Key** của AWS, vui lòng tham khảo hướng dẫn [Managing access keys for IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)   
@@ -90,7 +90,7 @@ Sau khi sử dụng lệnh `aws configure`, một thư mục có tên `.aws` s�
 
     | 👉 Trong ảnh dưới đây, mặc dù lệnh `aws configure` đã cấu hình vùng là `ap-southeast-1`, nhưng AWS CLI vẫn nhận giá trị `us-east-2` từ biến AWS_REGION.
 
-    ![AWS Configure conflict](/fcj-workshop2/images/2-prerequiste/2.1-aws-cli/2.1.2-bug.png)
+    ![AWS Configure conflict](/images/2-prerequiste/2.1-aws-cli/2.1.2-bug.png)
 
 ## Tham khảo
 

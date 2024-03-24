@@ -70,7 +70,7 @@ These variables are divided into 5 types:
 
 Run
 
-![Shell variable config](/fcj-workshop2/images/2-prerequiste/2.2-terminal-config/2.2.1-config.png)
+![Shell variable config](/images/2-prerequiste/2.2-terminal-config/2.2.1-config.png)
 
 ## Expansion
 

@@ -34,13 +34,13 @@ aws ecs update-service --cluster $ecs_cluster_name \
     --load-balancers targetGroupArn=$alb_tgr_arn,containerName=`echo $ecs_task_definition | jq -r '.taskDefinition.containerDefinitions[0].name'`,containerPort=8080
 ```
 Chạy
-![Create ECS Service](/fcj-workshop2/images/6-ecs/6.4-service/6.4.1.png)
+![Create ECS Service](/images/6-ecs/6.4-service/6.4.1.png)
 
-![Update ECS Service](/fcj-workshop2/images/6-ecs/6.4-service/6.4.2.png)
+![Update ECS Service](/images/6-ecs/6.4-service/6.4.2.png)
 
 Kiểm tra ECS Service vừa tạo bằng AWS Console
 
-![Create ECS Service](/fcj-workshop2/images/6-ecs/6.4-service/6.4.3.png)
+![Create ECS Service](/images/6-ecs/6.4-service/6.4.3.png)
 
 ## Kiểm tra kết quả bài lab
 
@@ -50,7 +50,7 @@ Kiểm tra ECS Service vừa tạo bằng AWS Console
     aws elbv2 describe-target-health --target-group-arn $alb_tgr_arn
     ```
 
-    ![Target Group check Healthy](/fcj-workshop2/images/6-ecs/6.4-service/6.4.6.png)
+    ![Target Group check Healthy](/images/6-ecs/6.4-service/6.4.6.png)
 
 2. Truy xuất ALB public DNS
 
@@ -61,8 +61,8 @@ Kiểm tra ECS Service vừa tạo bằng AWS Console
         --output text
     ```
     
-    ![Retrieve ALB DNS](/fcj-workshop2/images/6-ecs/6.4-service/6.4.5.png)
+    ![Retrieve ALB DNS](/images/6-ecs/6.4-service/6.4.5.png)
 
 3. Kiểm tra ứng dụng bằng `api`
 
-    ![Check Application](/fcj-workshop2/images/6-ecs/6.4-service/6.4.4.png)
+    ![Check Application](/images/6-ecs/6.4-service/6.4.4.png)

@@ -83,27 +83,27 @@ Các bước để tạo 1 instance profile:
 
 1. Tạo IAM Role với quyền được sử dụng bởi EC2.
 
-    ![Created IAM Role](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.2-create-role.png)
+    ![Created IAM Role](/images/2-prerequiste/2.3-iam/2.3.2-create-role.png)
 
 2. Gán policy cho IAM Role
 
-    ![Attack policy to IAM Role](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.3-attack-policy.png)
+    ![Attack policy to IAM Role](/images/2-prerequiste/2.3-iam/2.3.3-attack-policy.png)
 
 3. Tạo IAM instance profile
 
-   ![Create Instance Profile via cli](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.4-create-profile.png)
+   ![Create Instance Profile via cli](/images/2-prerequiste/2.3-iam/2.3.4-create-profile.png)
 
 4. Thêm Role vừa được tạo vào Instance profile
 
-    ![Add Role to Instance Profile](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.5-add-role-2-profile.png)
+    ![Add Role to Instance Profile](/images/2-prerequiste/2.3-iam/2.3.5-add-role-2-profile.png)
     
     Truy cập IAM Role thông qua AWS Console, với những role được gán cho instance profile thì sẽ có **Instance profile ARN** ở góc bên phải phía trên thuộc phần Summary
     
-    ![Created Instance Profile](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.7-iam-role.png)
+    ![Created Instance Profile](/images/2-prerequiste/2.3-iam/2.3.7-iam-role.png)
 
 5. Lấy thông tin Instance Profile sử dụng cho instance (EC2)
 
-    ![Get Instance Profile via Cli](/fcj-workshop2/images/2-prerequiste/2.3-iam/2.3.6-profile-arn.png)
+    ![Get Instance Profile via Cli](/images/2-prerequiste/2.3-iam/2.3.6-profile-arn.png)
     
 
 
